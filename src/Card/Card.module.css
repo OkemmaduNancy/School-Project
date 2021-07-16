@@ -1,0 +1,97 @@
+.Card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 500px;
+    gap: 50px;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .Card{
+        grid-template-columns: 500px ;
+    }
+}
+.Bulb{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);    
+    width: 350px;
+    height: 350px;
+}
+.img_bulb{
+    padding-left: 90px;
+    padding-top: 20px;
+    width: "2500px";
+    height: 200px;
+}
+.Television{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);    
+    width: 350px;
+    height: 350px;
+}
+.img_television{
+    padding-left: 45px;
+    padding-top: 30px;
+    
+}
+.Freezer{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);    
+    width: 350px;
+    height: 350px;
+}
+.img_freeze{
+    padding-left: 45px;
+    padding-top: 15px;
+}
+.Fan{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);    
+    width: 350px;
+    height: 350px;
+
+}
+.img_fan{
+    padding-left: 45px;
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly; 
+    margin-bottom: 100px;
+}
+
+.off{
+    background-color: rgb(223, 52, 52);
+    border-bottom-right-radius: 10px;
+    border-color:rgb(223, 52, 52);
+    margin-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 90px;
+    padding-right: 50px;
+    outline: none;
+
+}
+.on{
+    background-color: rgb(59, 218, 59);
+    border-color:rgb(52, 223, 52) ;
+    border-bottom-left-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 55px;
+    padding-left: 90px;
+    padding-right: 60px;
+    outline: none;
+
+}
