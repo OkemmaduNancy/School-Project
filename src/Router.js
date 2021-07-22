@@ -1,4 +1,4 @@
-import { Component, Suspense, useEffect, useRef, useState } from "react";
+import { Component, Suspense, useRef, useState } from "react";
 import { BrowserRouter as Router, Route, Switch, useHistory, Redirect } from "react-router-dom";
 import App from "./App";
 import Login from "./Login/Login"
