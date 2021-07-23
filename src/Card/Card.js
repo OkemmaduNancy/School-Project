@@ -19,7 +19,7 @@ const Card = () => {
             const data = await response.json()
 
             message.success({
-                content: "Device is on ",
+                content: "Device is on",
                 style: {
                     marginTop: '10vh',
                 },
