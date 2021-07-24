@@ -13,3 +13,9 @@ const firebaseConfig = {
 const app = firebase.initializeApp(firebaseConfig)
 
 export const auth = app.auth()
+
+const DEV_BASE_URL = process.env.REACT_APP_DEV_BASE_URL;
+const PROD_BASE_URL = process.env.REACT_APP_PROD_BASE_URL;
+const isDev = process.env.NODE_ENV === "development"
+
+export const BASE_URL = isDev ? DEV_BASE_URL : PROD_BASE_URL
